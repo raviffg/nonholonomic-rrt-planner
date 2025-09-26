@@ -1,0 +1,35 @@
+{
+  "site": "DC-2 warehouse, aisle 14 to dock 3",
+  "world": {
+    "bounds": [0.0, 0.0, 24.0, 9.0],
+    "robot_radius": 0.32,
+    "circles": [
+      { "cx": 7.4, "cy": 2.1, "r": 0.22 },
+      { "cx": 16.8, "cy": 6.4, "r": 0.28 }
+    ],
+    "polygons": [
+      [[3.0, 4.6], [9.5, 4.6], [9.5, 5.4], [3.0, 5.4]],
+      [[11.0, 1.2], [11.8, 1.2], [11.8, 6.9], [11.0, 6.9]],
+      [[14.2, 3.4], [20.0, 3.4], [20.0, 4.2], [14.2, 4.2]]
+    ]
+  },
+  "start": { "x": 1.0, "y": 1.6, "theta": 0.0 },
+  "goal": { "x": 22.6, "y": 7.2, "theta": 1.5708 },
+  "wheelbase_m": 0.62,
+  "curvature": {
+    "min_turn_radius_m": 0.45,
+    "max_curvature_inv_m": 2.2222
+  },
+  "limits": {
+    "v_max_mps": 0.9,
+    "omega_max_radps": 1.4,
+    "a_max_mps2": 0.7
+  },
+  "planner": {
+    "step_arc_m": 0.35,
+    "goal_bias": 0.12,
+    "goal_tolerance_m": 0.25,
+    "max_iters": 4000,
+    "seed": 7
+  }
+}
