@@ -25,10 +25,3 @@ Steering picks from an 11-sample curvature fan instead of solving the Dubins
 set. Cheaper, and the endpoint error is inside the goal tolerance anyway.
 Acceleration limits are not in the tree -- the tracker owns them. Replanning is
 not implemented; the plan is assumed valid for one traversal.
-
-
-## Expanded project documentation
-
-The `docs/` directory contains project-specific design notes, verification scenario specifications, operations guides, data contracts, configuration templates, safety notes, and project reference templates.
-
-**Important:** added documents are planning and review aids. They do not claim that tests have been executed, that placeholder configurations are supported runtime profiles, or that this project is certified for physical/clinical/production deployment. Confirm interfaces and limits against implementation and measured evidence.
